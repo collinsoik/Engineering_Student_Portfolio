@@ -13,35 +13,28 @@ export function Footer() {
 		{ icon: <Mail className="h-5 w-5" />, href: siteConfig.links.email, label: 'Email' },
 		{ icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
 		{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
-		{ icon: <MessageSquare className="h-5 w-5" />, href: siteConfig.links.whatsapp, label: 'WhatsApp' },
-		{ icon: <Twitter className="h-5 w-5" />, href: siteConfig.links.twitter, label: 'Twitter' },
-		{ icon: <Facebook className="h-5 w-5" />, href: siteConfig.links.facebook, label: 'Facebook' },
-		{ icon: <Instagram className="h-5 w-5" />, href: siteConfig.links.instagram, label: 'Instagram' },
-	];
+	].filter(link => link.href && link.href !== '');
 
 	const navColumns = [
 		{
 			title: 'About',
 			links: [
 				{ title: 'About Me', href: '/about' },
-				{ title: 'Education', href: '/education' },
 				{ title: 'Skills', href: '/skills' },
 			],
 		},
 		{
 			title: 'Work',
 			links: [
-				{ title: 'Experience', href: '/experience' },
 				{ title: 'Projects', href: '/projects' },
-				{ title: 'Certificates', href: '/certificates' },
+				{ title: 'Experience', href: '/experience' },
 			],
 		},
 		{
 			title: 'Connect',
 			links: [
-				{ title: 'Blog', href: '/blog' },
 				{ title: 'Contact', href: '/contact' },
-				{ title: 'Resume', href: '#', download: true },
+				{ title: 'Resume', href: '/engineering_resume.pdf', download: true },
 			],
 		},
 	];
@@ -52,10 +45,10 @@ export function Footer() {
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 					<div className="md:col-span-1">
 						<Link href="/" className="inline-block">
-							<span className="text-2xl font-bold text-gradient">Portfolio</span>
+							<span className="text-2xl font-bold text-gradient">Collin Soik</span>
 						</Link>
 						<p className="mt-4 text-sm text-muted-foreground">
-							A professional portfolio showcasing my skills, projects, and achievements in engineering.
+							Passionate engineer who loves to build things - from FPGA systems and embedded devices to full-stack applications and enterprise solutions.
 						</p>
 						<div className="mt-6 flex flex-wrap gap-3">
 							{socialLinks.map((link, index) => (
@@ -94,7 +87,7 @@ export function Footer() {
 
 				<div className="flex flex-col sm:flex-row items-center justify-between text-sm">
 					<p className="text-muted-foreground">
-						© {currentYear} Engineering Portfolio. All rights reserved.
+						© {currentYear} Collin Soik. All rights reserved.
 					</p>
 					<div className="mt-4 sm:mt-0 flex gap-4">
 						<Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">

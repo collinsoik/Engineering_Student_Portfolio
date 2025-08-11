@@ -1,11 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
 
-import { Button } from '@/components/ui/button';
 import { SectionHeader } from '@/components/ui/section-header';
 import { Card, CardContent } from '@/components/ui/card';
 import { fadeIn } from '@/lib/motion';
@@ -16,7 +13,7 @@ export function AboutPreview() {
 			<div className="container px-4">
 				<SectionHeader
 					title="About Me"
-					description="A passionate engineer dedicated to solving complex problems through innovative solutions."
+					description="Passionate engineer who loves turning ideas into reality through hands-on building, creative problem-solving, and innovative engineering solutions."
 				/>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
@@ -28,8 +25,8 @@ export function AboutPreview() {
 						className="relative h-[400px] rounded-lg overflow-hidden"
 					>
 						<Image
-							src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg"
-							alt="Engineer portrait"
+							src="/about-me.jpg"
+							alt="Collin Soik - Engineer portrait"
 							fill
 							className="object-cover"
 							sizes="(max-width: 768px) 100vw, 50vw"
@@ -43,45 +40,39 @@ export function AboutPreview() {
 						viewport={{ once: true }}
 						className="flex flex-col justify-center"
 					>
-						<h3 className="text-2xl font-bold mb-4">Professional Engineer</h3>
+						<h3 className="text-2xl font-bold mb-4">Engineer & Builder</h3>
 						<p className="text-muted-foreground mb-6">
-							I'm a dedicated engineering student with a passion for innovation and problem-solving.
-							My academic journey has equipped me with strong technical skills and a deep understanding
-							of engineering principles that I apply to real-world challenges.
+							I'm an engineering student who thrives on building things from the ground up. Whether it's designing FPGA control systems,
+							developing full-stack applications, or creating hardware monitoring solutions, I love the entire process of turning concepts
+							into working systems that solve real problems. My passion lies in hands-on engineering and creative problem-solving.
 						</p>
 
 						<div className="grid grid-cols-2 gap-4 mb-6">
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Education</h4>
-									<p className="text-sm text-muted-foreground">B.S. Mechanical Engineering</p>
+									<h4 className="font-semibold">GPA</h4>
+									<p className="text-sm text-muted-foreground">3.94/4.0</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Experience</h4>
-									<p className="text-sm text-muted-foreground">3+ Years</p>
+									<h4 className="font-semibold">Projects Built</h4>
+									<p className="text-sm text-muted-foreground">7+ Systems</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Projects</h4>
-									<p className="text-sm text-muted-foreground">10+ Completed</p>
+									<h4 className="font-semibold">Users Impacted</h4>
+									<p className="text-sm text-muted-foreground">5,000+ Users</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Awards</h4>
-									<p className="text-sm text-muted-foreground">5 Recognitions</p>
+									<h4 className="font-semibold">Technologies</h4>
+									<p className="text-sm text-muted-foreground">Hardware + Software</p>
 								</CardContent>
 							</Card>
 						</div>
-
-						<Button asChild>
-							<Link href="/about">
-								Learn More <ArrowRight className="ml-2 h-4 w-4" />
-							</Link>
-						</Button>
 					</motion.div>
 				</div>
 			</div>

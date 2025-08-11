@@ -29,9 +29,11 @@ export default function ContactPage() {
 
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
-		// Form submission logic would go here
-		console.log('Form submitted:', formState);
-		alert('Message sent successfully!');
+		// Create mailto link with form data
+		const mailtoLink = `mailto:cmsoik@ncsu.edu?subject=${encodeURIComponent(formState.subject)}&body=${encodeURIComponent(
+			`Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`
+		)}`;
+		window.location.href = mailtoLink;
 		setFormState({ name: '', email: '', subject: '', message: '' });
 	};
 
@@ -62,15 +64,15 @@ export default function ContactPage() {
 									<div className="space-y-4">
 										<div className="flex items-center">
 											<Phone className="h-5 w-5 text-primary mr-3" />
-											<p className="text-muted-foreground">+1 234 567 890</p>
+											<p className="text-muted-foreground">(704) 641-5242</p>
 										</div>
 										<div className="flex items-center">
 											<Mail className="h-5 w-5 text-primary mr-3" />
-											<p className="text-muted-foreground">contact@example.com</p>
+											<p className="text-muted-foreground">cmsoik@ncsu.edu</p>
 										</div>
 										<div className="flex items-center">
 											<MapPin className="h-5 w-5 text-primary mr-3" />
-											<p className="text-muted-foreground">City, Country</p>
+											<p className="text-muted-foreground">Raleigh, NC</p>
 										</div>
 									</div>
 								</CardContent>

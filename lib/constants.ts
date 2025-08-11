@@ -1,39 +1,23 @@
 export const siteConfig = {
-	name: 'Engineering Portfolio',
+	name: 'Collin Soik',
 	description:
-		'A professional portfolio website template for engineering students.',
+		'Passionate engineer who loves to build things. From FPGA systems and embedded devices to full-stack applications and enterprise solutions.',
 	mainNav: [
 		{
 			title: 'Home',
 			href: '/',
 		},
 		{
-			title: 'About',
-			href: '/about',
-		},
-		{
-			title: 'Education',
-			href: '/education',
-		},
-		{
-			title: 'Skills',
-			href: '/skills',
+			title: 'Projects',
+			href: '/projects',
 		},
 		{
 			title: 'Experience',
 			href: '/experience',
 		},
 		{
-			title: 'Projects',
-			href: '/projects',
-		},
-		{
-			title: 'Certificates',
-			href: '/certificates',
-		},
-		{
-			title: 'Blog',
-			href: '/blog',
+			title: 'Skills',
+			href: '/skills',
 		},
 		{
 			title: 'Contact',
@@ -41,14 +25,14 @@ export const siteConfig = {
 		},
 	],
 	links: {
-		github: 'https://github.com/yourusername',
-		linkedin: 'https://linkedin.com/in/yourusername',
-		twitter: 'https://twitter.com/yourusername',
-		facebook: 'https://facebook.com/yourusername',
-		instagram: 'https://instagram.com/yourusername',
-		whatsapp: 'https://wa.me/yourphonenumber',
-		email: 'mailto:youremail@example.com',
-		phone: 'tel:+1234567890',
+		github: 'https://github.com/collinsoik',
+		linkedin: 'https://linkedin.com/in/collin-soik123',
+		twitter: '',
+		facebook: '',
+		instagram: '',
+		whatsapp: '',
+		email: 'mailto:cmsoik@ncsu.edu',
+		phone: 'tel:+17046415242',
 	},
 };
 
@@ -64,30 +48,115 @@ export type Experience = {
 
 export const experiences: Experience[] = [
 	{
-		title: 'Engineering Intern',
-		company: 'Tech Company',
-		location: 'City, Country',
-		startDate: 'May 2023',
-		endDate: 'Aug 2023',
+		title: 'Customer Quality Engineer Intern',
+		company: 'Lenovo',
+		location: 'Mooresville, NC & Multi-Location',
+		startDate: 'May 2024',
+		endDate: 'Dec 2024',
 		description: [
-			'Worked on developing and testing software components for embedded systems',
-			'Collaborated with senior engineers on project planning and execution',
-			'Implemented test procedures for quality assurance',
+			'Led multi-location infrastructure rework project for Merck, managing 15+ contractors across facilities',
+			'Served as primary liaison between Lenovo, Merck stakeholders, and external teams',
+			'Orchestrated infrastructure changes affecting 5,000+ machines with zero critical failures',
+			'Maintained multi-million dollar contract through successful project execution ahead of schedule',
+			'Spearheaded development of internal flicker detection software suite deployed across 7 countries',
+			'Managed Chromebook datalogger project deployed in 3 educational institutions',
 		],
-		technologies: ['C++', 'Python', 'MATLAB', 'Git'],
+		technologies: ['Project Management', 'Stakeholder Management', 'Enterprise Solutions', 'Quality Engineering'],
 	},
 	{
-		title: 'Research Assistant',
-		company: 'University Lab',
-		location: 'City, Country',
-		startDate: 'Jan 2023',
-		endDate: 'Apr 2023',
+		title: 'Product Lead & Technical Founder',
+		company: 'Quierdo Dios',
+		location: 'Remote',
+		startDate: 'Nov 2024',
+		endDate: 'Jan 2025',
 		description: [
-			'Assisted in research focusing on advanced materials for mechanical applications',
-			'Conducted literature reviews and compiled research findings',
-			'Performed data analysis and visualization of experimental results',
+			'Defined product vision and strategic roadmap based on customer needs analysis',
+			'Built consensus across cross-functional team of 22 engineers and designers',
+			'Established KPIs and success metrics with 1,000+ pre-launch waitlist validation',
+			'Delivered functional product at 50% of estimated timeline and cost',
+			'Product acquired by competitor post-launch',
 		],
-		technologies: ['MATLAB', 'CAD', 'Data Analysis', 'Python'],
+		technologies: ['Product Strategy', 'Cross-functional Leadership', 'Data Privacy', 'User Research'],
+	},
+	{
+		title: 'Product Manager - Digital Marketing',
+		company: 'Carolina GG',
+		location: 'Remote',
+		startDate: 'Sept 2024',
+		endDate: 'Dec 2024',
+		description: [
+			'Led comprehensive brand refresh and digital marketing campaign for esports agency',
+			'Increased organic traffic by 300% through data-driven optimization',
+			'Secured 4 major esports events and improved merchandise sales by 200%',
+			'Reduced technical operating costs by 50% while improving performance',
+		],
+		technologies: ['Brand Strategy', 'Digital Marketing', 'Analytics', 'Web Development'],
+	},
+	{
+		title: 'Process Engineering Intern',
+		company: 'Kyma Technologies',
+		location: 'Raleigh, NC',
+		startDate: 'Jan 2024',
+		endDate: 'May 2024',
+		description: [
+			'Led development of real-time monitoring systems for semiconductor chambers',
+			'Achieved 30% reduction in maintenance time through predictive protocols',
+			'Executed website modernization increasing traffic by 400%',
+			'Improved site audit score by 30% and streamlined IT contracts',
+		],
+		technologies: ['Semiconductor Tech', 'Real-time Systems', 'SEO', 'Web Infrastructure'],
+	},
+	{
+		title: 'Website Agency Project Manager/Founder',
+		company: 'Syntex Studios',
+		location: 'Remote',
+		startDate: 'Jan 2024',
+		endDate: 'Present',
+		description: [
+			'Founded and managed web development agency serving multiple clients',
+			'Led project management for website development and digital marketing campaigns',
+			'Coordinated cross-functional teams and client relationships',
+		],
+		technologies: ['Web Development', 'Project Management', 'Client Relations', 'Digital Marketing'],
+	},
+	{
+		title: 'President',
+		company: 'Digital Design Club - NC State',
+		location: 'Raleigh, NC',
+		startDate: 'Aug 2023',
+		endDate: 'Present',
+		description: [
+			'Lead student organization focused on digital design and engineering projects',
+			'Organize workshops and events for 50+ members',
+			'Coordinate collaboration between students and industry professionals',
+		],
+		technologies: ['Leadership', 'Event Planning', 'Digital Design', 'Community Building'],
+	},
+	{
+		title: 'Undergraduate Research Assistant',
+		company: 'NC State University',
+		location: 'Raleigh, NC',
+		startDate: 'Jan 2024',
+		endDate: 'Present',
+		description: [
+			'Conduct research in electrical and computer engineering projects',
+			'Assist with data collection and analysis for ongoing research studies',
+			'Collaborate with graduate students and faculty on research initiatives',
+		],
+		technologies: ['Research Methods', 'Data Analysis', 'Engineering Research', 'Academic Collaboration'],
+	},
+	{
+		title: 'Founder & Operations Manager',
+		company: 'Wolf Gobble Boxes',
+		location: 'Raleigh, NC',
+		startDate: 'Sept 2023',
+		endDate: 'Present',
+		description: [
+			'Founded meal-prepping service company serving 30+ recurring customers weekly',
+			'Manage operations, supply chain, and team of employees',
+			'Developed customer acquisition and retention strategies',
+		],
+		technologies: ['Operations Management', 'Customer Service', 'Team Leadership', 'Business Strategy'],
 	},
 ];
 
@@ -102,29 +171,65 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Smart Home Automation System',
+		title: 'Merck Multi-Location Infrastructure Rework',
 		description:
-			'Designed and implemented a smart home automation system using IoT technologies to control lighting, temperature, and security features.',
-		image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg',
-		tags: ['IoT', 'Arduino', 'C++', 'Mobile App'],
+			'Led complex infrastructure rework across multiple Merck facilities. Managed 15+ contractors, orchestrated changes affecting 5,000+ machines, and maintained multi-million dollar contract. Completed ahead of schedule with zero critical failures.',
+		image: '/merck.jpeg',
+		tags: ['Enterprise', 'Project Management', 'Stakeholder Management', 'Infrastructure'],
 		link: '#',
 		repo: '#',
 	},
 	{
-		title: 'Structural Analysis Software',
+		title: 'Internal Flicker Detection Software Suite',
 		description:
-			'Developed software for structural analysis of beams and trusses using numerical methods and visualization techniques.',
-		image: 'https://images.pexels.com/photos/1036657/pexels-photo-1036657.jpeg',
-		tags: ['MATLAB', 'Python', 'FEA', 'Structural Engineering'],
+			'Spearheaded development of specialized desktop application for advanced flicker detection in Lenovo\'s L3 support lab. Achieved sub-hundredth second detection rates, deployed across 7 countries, and secured Version 2.0 approval.',
+		image: '/lenovo.jpeg',
+		tags: ['Software Development', 'Quality Engineering', 'Hardware Integration', 'Testing'],
 		link: '#',
 		repo: '#',
 	},
 	{
-		title: 'Renewable Energy Monitoring',
+		title: 'Chromebook Datalogger',
 		description:
-			'Created a system to monitor and analyze performance of solar panels and wind turbines for optimal energy production.',
-		image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg',
-		tags: ['Data Analysis', 'IoT', 'Renewable Energy', 'Visualization'],
+			'Managed development of innovative data logging system using gyroscope technology. Deployed in 3 educational institutions, monitored 30 laptops over 2-month period. Met all technical constraints while delivering on deadline.',
+		image: '/chromebook.jpeg',
+		tags: ['Hardware Development', 'Data Analytics', 'Education Technology', 'IoT'],
+		link: '#',
+		repo: '#',
+	},
+	{
+		title: 'Quierdo Dios - Religious Technology Platform',
+		description:
+			'Defined product vision for innovative religious platform. Built consensus across 22-person team, secured 1,000+ pre-launch waitlist, delivered at 50% estimated timeline/cost. Product acquired by competitor post-launch.',
+		image: '/queirdo.png',
+		tags: ['Product Strategy', 'Cross-functional Leadership', 'Privacy-focused', 'Social Platform'],
+		link: '#',
+		repo: '#',
+	},
+	{
+		title: 'Carolina GG Brand Rework',
+		description:
+			'Led comprehensive brand refresh for esports agency. Increased organic traffic by 300%, secured 4 major events, improved merchandise sales by 200%, and reduced operating costs by 50%.',
+		image: '/carolina_gg.png',
+		tags: ['Esports', 'Digital Marketing', 'Brand Strategy', 'Web Development'],
+		link: '#',
+		repo: '#',
+	},
+	{
+		title: 'Kyma Technologies Chamber Monitoring',
+		description:
+			'Led development of real-time monitoring systems for semiconductor chambers. Achieved 30% reduction in maintenance time, deployed on 7/8 chambers, implemented predictive maintenance protocols.',
+		image: '/kyma.png',
+		tags: ['Semiconductor', 'Real-time Systems', 'Predictive Maintenance', 'UI/UX'],
+		link: '#',
+		repo: '#',
+	},
+	{
+		title: 'Kyma Technologies Website & SEO',
+		description:
+			'Executed comprehensive website modernization and SEO campaign. Increased traffic by 400%, improved site audit score by 30%, streamlined IT contracts, and modernized web infrastructure.',
+		image: '/kyma.png',
+		tags: ['Web Development', 'SEO', 'Digital Marketing', 'Analytics'],
 		link: '#',
 		repo: '#',
 	},
@@ -144,30 +249,28 @@ export type Education = {
 export const education: Education[] = [
 	{
 		degree: 'Bachelor of Science',
-		field: 'Mechanical Engineering',
-		institution: 'University Name',
-		location: 'City, Country',
-		startDate: 'Sep 2020',
-		endDate: 'Present',
-		gpa: '3.8/4.0',
+		field: 'Electrical and Computer Engineering',
+		institution: 'NC State University',
+		location: 'Raleigh, NC',
+		startDate: '2023',
+		endDate: '2027',
+		gpa: '3.94/4.0',
 		achievements: [
-			'Dean\'s List (All Semesters)',
-			'Academic Excellence Scholarship',
-			'Senior Design Project Award',
+			'Strong Technical Foundation in ECE',
+			'Hands-on Project Development',
+			'Research & Development Experience',
 		],
 	},
 	{
-		degree: 'High School Diploma',
-		field: 'Science and Mathematics',
-		institution: 'High School Name',
-		location: 'City, Country',
-		startDate: 'Sep 2016',
-		endDate: 'Jun 2020',
-		gpa: '4.0/4.0',
+		degree: 'Exchange Student',
+		field: 'Computer Engineering Program',
+		institution: 'ZHAW University',
+		location: 'Winterthur, Switzerland',
+		startDate: 'Feb 2024',
+		endDate: 'July 2024',
 		achievements: [
-			'Valedictorian',
-			'National Mathematics Competition Finalist',
-			'Science Fair Gold Medal',
+			'International Engineering Exposure',
+			'Advanced Computer Engineering Coursework',
 		],
 	},
 ];
@@ -215,32 +318,43 @@ export type Skill = {
 };
 
 export const skills: Skill[] = [
-	// Technical Skills
-	{ name: 'Mechanical Design', level: 9, category: 'technical' },
-	{ name: 'Structural Analysis', level: 8, category: 'technical' },
-	{ name: 'Thermodynamics', level: 7, category: 'technical' },
-	{ name: 'Control Systems', level: 8, category: 'technical' },
-	{ name: 'Circuit Design', level: 6, category: 'technical' },
+	// Product Management Skills
+	{ name: 'Product Strategy & Vision', level: 10, category: 'technical' },
+	{ name: 'Customer Needs Analysis', level: 9, category: 'technical' },
+	{ name: 'Product Roadmap Development', level: 9, category: 'technical' },
+	{ name: 'Market Opportunity Analysis', level: 8, category: 'technical' },
+	{ name: 'Competitive Landscape Assessment', level: 8, category: 'technical' },
+	{ name: 'KPI Definition & Tracking', level: 9, category: 'technical' },
+	{ name: 'Data-Driven Decision Making', level: 10, category: 'technical' },
+	{ name: 'User Research', level: 9, category: 'technical' },
 
-	// Software Skills
-	{ name: 'MATLAB', level: 9, category: 'software' },
-	{ name: 'AutoCAD', level: 8, category: 'software' },
-	{ name: 'SolidWorks', level: 9, category: 'software' },
-	{ name: 'Python', level: 7, category: 'software' },
-	{ name: 'C++', level: 6, category: 'software' },
-	{ name: 'ANSYS', level: 8, category: 'software' },
+	// Leadership & Collaboration
+	{ name: 'Cross-Functional Leadership', level: 10, category: 'soft' },
+	{ name: 'Stakeholder Management', level: 10, category: 'soft' },
+	{ name: 'Engineering Collaboration', level: 9, category: 'soft' },
+	{ name: 'Design Partnership', level: 8, category: 'soft' },
+	{ name: 'Consensus Building', level: 9, category: 'soft' },
+	{ name: 'Team Management (20+ members)', level: 9, category: 'soft' },
+	{ name: 'Client Relations', level: 10, category: 'soft' },
+	{ name: 'Vendor Management', level: 8, category: 'soft' },
 
-	// Soft Skills
-	{ name: 'Problem Solving', level: 9, category: 'soft' },
-	{ name: 'Team Leadership', level: 8, category: 'soft' },
-	{ name: 'Project Management', level: 7, category: 'soft' },
-	{ name: 'Technical Writing', level: 8, category: 'soft' },
-	{ name: 'Presentation', level: 7, category: 'soft' },
+	// Technical & Tools
+	{ name: 'Agile/Scrum', level: 9, category: 'software' },
+	{ name: 'JIRA/Confluence', level: 8, category: 'software' },
+	{ name: 'Analytics Tools', level: 9, category: 'software' },
+	{ name: 'A/B Testing', level: 8, category: 'software' },
+	{ name: 'SQL/Data Analysis', level: 8, category: 'software' },
+	{ name: 'Figma/Design Tools', level: 7, category: 'software' },
+	{ name: 'API Development', level: 8, category: 'software' },
+	{ name: 'Cloud Platforms', level: 8, category: 'software' },
 
-	// Languages
-	{ name: 'English', level: 10, category: 'language' },
-	{ name: 'Spanish', level: 6, category: 'language' },
-	{ name: 'French', level: 4, category: 'language' },
+	// Domain Expertise
+	{ name: 'Enterprise Solutions', level: 9, category: 'technical' },
+	{ name: 'EdTech', level: 8, category: 'technical' },
+	{ name: 'Digital Marketing', level: 9, category: 'technical' },
+	{ name: 'Infrastructure Management', level: 8, category: 'technical' },
+	{ name: 'Quality Engineering', level: 8, category: 'technical' },
+	{ name: 'Privacy & Security', level: 8, category: 'technical' },
 ];
 
 export type BlogPost = {
@@ -252,29 +366,4 @@ export type BlogPost = {
 	slug: string;
 };
 
-export const blogPosts: BlogPost[] = [
-	{
-		title: 'Advances in Renewable Energy Technologies',
-		excerpt: 'Exploring the latest innovations in renewable energy and their impact on sustainable development.',
-		date: 'Mar 15, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg',
-		slug: 'advances-in-renewable-energy',
-	},
-	{
-		title: 'The Future of Robotics in Manufacturing',
-		excerpt: 'How robotics and automation are revolutionizing the manufacturing industry and creating new opportunities.',
-		date: 'Feb 22, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
-		slug: 'future-of-robotics-manufacturing',
-	},
-	{
-		title: 'Sustainable Building Materials in Modern Construction',
-		excerpt: 'An analysis of eco-friendly building materials and their applications in contemporary architecture.',
-		date: 'Jan 10, 2024',
-		author: 'Your Name',
-		image: 'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg',
-		slug: 'sustainable-building-materials',
-	},
-];
+export const blogPosts: BlogPost[] = [];
