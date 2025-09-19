@@ -51,7 +51,7 @@ export function AboutPreview() {
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">GPA</h4>
-									<p className="text-sm text-muted-foreground">3.94/4.0</p>
+									<p className="text-sm text-muted-foreground">3.0/4.0</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
