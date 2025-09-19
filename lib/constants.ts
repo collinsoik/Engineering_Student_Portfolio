@@ -254,7 +254,7 @@ export const education: Education[] = [
 		location: 'Raleigh, NC',
 		startDate: '2023',
 		endDate: '2027',
-		gpa: '3.94/4.0',
+		gpa: '3.0/4.0',
 		achievements: [
 			'Strong Technical Foundation in ECE',
 			'Hands-on Project Development',
