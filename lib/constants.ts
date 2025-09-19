@@ -263,14 +263,14 @@ export const education: Education[] = [
 	},
 	{
 		degree: 'Exchange Student',
-		field: 'Computer Engineering Program',
+		field: 'Electrical Engineering Program',
 		institution: 'ZHAW University',
 		location: 'Winterthur, Switzerland',
 		startDate: 'Feb 2024',
 		endDate: 'July 2024',
 		achievements: [
 			'International Engineering Exposure',
-			'Advanced Computer Engineering Coursework',
+			'Advanced Electrical Engineering Coursework',
 		],
 	},
 ];
