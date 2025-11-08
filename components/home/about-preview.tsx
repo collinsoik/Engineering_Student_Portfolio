@@ -50,8 +50,8 @@ export function AboutPreview() {
 						<div className="grid grid-cols-2 gap-4 mb-6">
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">GPA</h4>
-									<p className="text-sm text-muted-foreground">3.0/4.0</p>
+									<h4 className="font-semibold">Client Projects</h4>
+									<p className="text-sm text-muted-foreground">25+ Delivered</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
